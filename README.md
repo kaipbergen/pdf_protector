@@ -1,3 +1,4 @@
+![image](https://github.com/kaipbergen/pdf_protector/assets/166859779/8952f729-7347-40bc-b757-f39fd285a282)
 PDF Protector
 PDF Protector is a Python application designed to secure your PDF documents with password protection. Built with a user-friendly graphical interface using Tkinter, it allows for easy encryption of PDFs to keep your sensitive information safe. The application also features image buttons for a clean, intuitive experience.
 
