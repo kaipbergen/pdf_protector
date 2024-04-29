@@ -57,7 +57,8 @@ def Protect():
 
 img = Image.open("images/main.png")
 
-img = img.resize((580, 125), Image.ANTIALIAS)
+img = img.resize((580, 125), Image.Resampling.LANCZOS)
+
 
 # Convert the image to PhotoImage
 top_image = ImageTk.PhotoImage(img)
@@ -108,7 +109,7 @@ entry3.place(x=150, y=150)
 
 Buton_image_path = "images/icon.png"
 buton_img = Image.open(Buton_image_path)
-buton_img = buton_img.resize((35, 24), Image.ANTIALIAS)  # Resize
+buton_img = buton_img.resize((35, 24), Image.Resampling.LANCZOS)  # Resize
 buton_icon = ImageTk.PhotoImage(buton_img)
 
 # Create the button with the image
@@ -124,7 +125,7 @@ buton.image = buton_icon
 
 button_image_path = "images/icon.png" 
 button_img = Image.open(button_image_path)
-button_img = button_img.resize((95, 54), Image.ANTIALIAS)  # Resize 
+button_img = button_img.resize((95, 54), Image.Resampling.LANCZOS)  # Resize 
 button_icon = ImageTk.PhotoImage(button_img)
 
 # Create the button with the image
